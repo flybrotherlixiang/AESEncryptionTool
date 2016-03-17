@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		53E9C1171C9A4D310086814D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E9C1161C9A4D310086814D /* main.m */; };
+		53E9C1251C9A4D650086814D /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E9C11E1C9A4D650086814D /* AESCrypt.m */; };
+		53E9C1261C9A4D650086814D /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E9C1201C9A4D650086814D /* NSData+Base64.m */; };
+		53E9C1271C9A4D650086814D /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E9C1221C9A4D650086814D /* NSData+CommonCrypto.m */; };
+		53E9C1281C9A4D650086814D /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E9C1241C9A4D650086814D /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		53E9C1131C9A4D310086814D /* AESEncryptionTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AESEncryptionTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E9C1161C9A4D310086814D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53E9C11D1C9A4D650086814D /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		53E9C11E1C9A4D650086814D /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		53E9C11F1C9A4D650086814D /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		53E9C1201C9A4D650086814D /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		53E9C1211C9A4D650086814D /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		53E9C1221C9A4D650086814D /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		53E9C1231C9A4D650086814D /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		53E9C1241C9A4D650086814D /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,14 @@
 		53E9C1151C9A4D310086814D /* AESEncryptionTool */ = {
 			isa = PBXGroup;
 			children = (
+				53E9C11D1C9A4D650086814D /* AESCrypt.h */,
+				53E9C11E1C9A4D650086814D /* AESCrypt.m */,
+				53E9C11F1C9A4D650086814D /* NSData+Base64.h */,
+				53E9C1201C9A4D650086814D /* NSData+Base64.m */,
+				53E9C1211C9A4D650086814D /* NSData+CommonCrypto.h */,
+				53E9C1221C9A4D650086814D /* NSData+CommonCrypto.m */,
+				53E9C1231C9A4D650086814D /* NSString+Base64.h */,
+				53E9C1241C9A4D650086814D /* NSString+Base64.m */,
 				53E9C1161C9A4D310086814D /* main.m */,
 			);
 			path = AESEncryptionTool;
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E9C1271C9A4D650086814D /* NSData+CommonCrypto.m in Sources */,
+				53E9C1251C9A4D650086814D /* AESCrypt.m in Sources */,
 				53E9C1171C9A4D310086814D /* main.m in Sources */,
+				53E9C1261C9A4D650086814D /* NSData+Base64.m in Sources */,
+				53E9C1281C9A4D650086814D /* NSString+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
