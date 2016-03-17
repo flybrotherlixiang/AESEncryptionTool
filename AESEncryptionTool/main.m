@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "AESCrypt.h"
 
-//NSString *const password = @"baixingios";
-
 static NSString *const usageText = @"SYNOPSIS:\n ./AESEncrptionTool INPUT_FILE_PATH [-e-d]\n\nsample input:\n ./AESEncrptionTool /Users/Flybrother/aestest/index.js\n\nnote:\n -e for encrption, -d for decrption and the default mode is encryption.";
 static NSString *const invalidPwdText = @"Invalid Password.";
 static NSString *const noPwdText = @"Please provide a password following -p in your command";
